@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="FollowTableViewCell" customModule="Education_Platform" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="435" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="435" height="119"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F7D-Yl-BXt">
+                        <rect key="frame" x="10" y="8" width="415" height="109"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="setup_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="RO9-as-N4I">
+                                <rect key="frame" x="10" y="25" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="Kay-cO-L3P"/>
+                                    <constraint firstAttribute="height" constant="60" id="gBA-qU-3do"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ngoc Trinh" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zI6-Q8-SsZ">
+                                <rect key="frame" x="80" y="10" width="205" height="89"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dp0-35-QjK">
+                                <rect key="frame" x="295" y="40" width="110" height="30"/>
+                                <color key="backgroundColor" red="0.1647058824" green="0.76862745099999996" blue="0.2156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ACr-Du-BqD"/>
+                                    <constraint firstAttribute="width" constant="110" id="jLW-HM-tyy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="12"/>
+                                <state key="normal" title="Follow">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="zI6-Q8-SsZ" secondAttribute="bottom" constant="10" id="3Pq-AS-zs1"/>
+                            <constraint firstAttribute="trailing" secondItem="dp0-35-QjK" secondAttribute="trailing" constant="10" id="8Fg-hA-RCZ"/>
+                            <constraint firstItem="dp0-35-QjK" firstAttribute="leading" secondItem="zI6-Q8-SsZ" secondAttribute="trailing" constant="10" id="8Wg-Z6-gzJ"/>
+                            <constraint firstItem="zI6-Q8-SsZ" firstAttribute="top" secondItem="F7D-Yl-BXt" secondAttribute="top" constant="10" id="Ces-2h-ETm"/>
+                            <constraint firstItem="dp0-35-QjK" firstAttribute="centerY" secondItem="F7D-Yl-BXt" secondAttribute="centerY" id="R2U-iM-PmM"/>
+                            <constraint firstItem="RO9-as-N4I" firstAttribute="centerY" secondItem="F7D-Yl-BXt" secondAttribute="centerY" id="Zii-Zg-S7n"/>
+                            <constraint firstItem="RO9-as-N4I" firstAttribute="leading" secondItem="F7D-Yl-BXt" secondAttribute="leading" constant="10" id="tjB-Vd-OdC"/>
+                            <constraint firstItem="zI6-Q8-SsZ" firstAttribute="leading" secondItem="RO9-as-N4I" secondAttribute="trailing" constant="10" id="uaT-z5-DGM"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowOpacity">
+                                <real key="value" value="0.29999999999999999"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="layer.shadowColor">
+                                <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
+                                <size key="value" width="0.0" height="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="F7D-Yl-BXt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="1B7-aM-jj9"/>
+                    <constraint firstItem="F7D-Yl-BXt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="44P-Vg-0mI"/>
+                    <constraint firstAttribute="trailing" secondItem="F7D-Yl-BXt" secondAttribute="trailing" constant="10" id="YFG-81-6wA"/>
+                    <constraint firstAttribute="bottom" secondItem="F7D-Yl-BXt" secondAttribute="bottom" constant="2" id="to8-Uz-cMh"/>
+                </constraints>
+                <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="shadow" value="YES"/>
+                </userDefinedRuntimeAttributes>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="backgroundCardView" destination="F7D-Yl-BXt" id="dcP-aR-fef"/>
+                <outlet property="followBtn" destination="dp0-35-QjK" id="GFt-s6-abn"/>
+                <outlet property="imgvUser" destination="RO9-as-N4I" id="vj4-9a-PEx"/>
+                <outlet property="labelUser" destination="zI6-Q8-SsZ" id="cb5-4U-dhP"/>
+            </connections>
+            <point key="canvasLocation" x="60.5" y="54"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="setup_1.jpg" width="489" height="870"/>
+    </resources>
+</document>

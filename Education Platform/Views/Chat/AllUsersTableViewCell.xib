@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="109" id="KGk-i7-Jjw" customClass="AllUsersTableViewCell" customModule="Education_Platform" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="465" height="109"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="465" height="108"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user_male.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="0Gt-Qp-dTd">
+                        <rect key="frame" x="8" y="17" width="75" height="75"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="75" id="Ihc-RP-2cs"/>
+                            <constraint firstAttribute="width" constant="75" id="vEd-7S-oHx"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Le Thanh Tam" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aDa-MM-kqO">
+                        <rect key="frame" x="93" y="26" width="370" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="STm-Zb-ZUA"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lethanhtam@gmail.com" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qtF-MB-jNs">
+                        <rect key="frame" x="93" y="44" width="370" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="hlj-Mm-IFN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y6A-Lu-mqH">
+                        <rect key="frame" x="93" y="64" width="110" height="28"/>
+                        <color key="backgroundColor" red="0.16454654539999999" green="0.76786564089999998" blue="0.2143863188" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="0RL-Uv-rRN"/>
+                            <constraint firstAttribute="width" constant="110" id="cA2-tC-KMu"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name=".SFNSText" family=".SF NS Text" pointSize="12"/>
+                        <state key="normal" title="Add Friend">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Request sent" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxC-NX-RWM">
+                        <rect key="frame" x="93" y="68" width="110" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="obZ-Ly-cvS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="331-Sf-zN7">
+                        <rect key="frame" x="213" y="64" width="110" height="28"/>
+                        <color key="backgroundColor" red="0.16454654539999999" green="0.76786564089999998" blue="0.2143863188" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="ir4-PM-OvD"/>
+                            <constraint firstAttribute="width" constant="110" id="q3g-YK-Tst"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name=".SFNSText" family=".SF NS Text" pointSize="12"/>
+                        <state key="normal" title="Cancel">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="y6A-Lu-mqH" firstAttribute="top" secondItem="qtF-MB-jNs" secondAttribute="bottom" id="015-Y3-Gkr"/>
+                    <constraint firstItem="qtF-MB-jNs" firstAttribute="leading" secondItem="0Gt-Qp-dTd" secondAttribute="trailing" constant="10" id="4Zr-Uo-my3"/>
+                    <constraint firstItem="0Gt-Qp-dTd" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="78D-XL-eKE"/>
+                    <constraint firstItem="y6A-Lu-mqH" firstAttribute="leading" secondItem="0Gt-Qp-dTd" secondAttribute="trailing" constant="10" id="EQq-Lc-uq0"/>
+                    <constraint firstAttribute="trailing" secondItem="aDa-MM-kqO" secondAttribute="trailing" constant="2" id="FAj-dI-mRi"/>
+                    <constraint firstItem="331-Sf-zN7" firstAttribute="leading" secondItem="y6A-Lu-mqH" secondAttribute="trailing" constant="10" id="G0V-1G-4ff"/>
+                    <constraint firstItem="yxC-NX-RWM" firstAttribute="leading" secondItem="0Gt-Qp-dTd" secondAttribute="trailing" constant="10" id="Jee-ph-6Er"/>
+                    <constraint firstItem="qtF-MB-jNs" firstAttribute="centerY" secondItem="0Gt-Qp-dTd" secondAttribute="centerY" id="NIU-I6-E6I"/>
+                    <constraint firstItem="qtF-MB-jNs" firstAttribute="top" secondItem="aDa-MM-kqO" secondAttribute="bottom" id="Onf-gl-ljc"/>
+                    <constraint firstAttribute="trailing" secondItem="qtF-MB-jNs" secondAttribute="trailing" constant="2" id="TBY-4f-B4F"/>
+                    <constraint firstItem="aDa-MM-kqO" firstAttribute="leading" secondItem="0Gt-Qp-dTd" secondAttribute="trailing" constant="10" id="YXL-Ix-YOt"/>
+                    <constraint firstItem="yxC-NX-RWM" firstAttribute="centerY" secondItem="y6A-Lu-mqH" secondAttribute="centerY" id="fAC-sC-bEX"/>
+                    <constraint firstItem="331-Sf-zN7" firstAttribute="leading" secondItem="yxC-NX-RWM" secondAttribute="trailing" constant="10" id="gaX-f5-Uat"/>
+                    <constraint firstItem="0Gt-Qp-dTd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="goF-l3-eKp"/>
+                    <constraint firstItem="331-Sf-zN7" firstAttribute="centerY" secondItem="y6A-Lu-mqH" secondAttribute="centerY" id="wYQ-Wt-FuM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addFriendBtn" destination="y6A-Lu-mqH" id="vq3-JT-527"/>
+                <outlet property="cancelRequestBtn" destination="331-Sf-zN7" id="LNh-eo-8ka"/>
+                <outlet property="emailLabel" destination="qtF-MB-jNs" id="nNg-8n-b3m"/>
+                <outlet property="requestSentLabel" destination="yxC-NX-RWM" id="G0P-WV-Fck"/>
+                <outlet property="userImage" destination="0Gt-Qp-dTd" id="GPL-v2-Ncf"/>
+                <outlet property="userNameLabel" destination="aDa-MM-kqO" id="f8V-hn-kgT"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="68.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="user_male.jpg" width="240" height="240"/>
+    </resources>
+</document>
